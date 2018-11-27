@@ -3437,7 +3437,7 @@ ul.pagination li:last-child {
   content: "";
 }
 .section-counter {
-  background-image: url("../images/counter_bg.jpg");
+  background-color: black;
   background-repeat: no-repeat;
   background-position: 0 70%;
   background-size: cover;
