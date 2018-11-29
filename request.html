@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>EJE CONNECT PROJECT</title>
+        <title>Request/EjeConnect</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="description" content="EJE CONNECT PROJECT">
         <link rel="shortcut icon" href="images/favicon.png" />
@@ -87,7 +87,11 @@
                         </figure>
                     </div>   
 -->
-
+    <div>
+        <h5 style= "padding-left: 50px";>
+            Note: You will be required to pay a token of 5,000 naira before you will be paired with a donor.
+        </h5>
+    </div>
 
                     <div > 
 
@@ -95,15 +99,19 @@
                             <h3 class="join-heading">Request Donor</h3>
                             <form class="appoinment-form"> 
                                 <div class="form-group col-md-6">
+                                    <label for="Name">Name:</label>
                                     <input id="your_name" class="form-control" placeholder="Name" type="text">
                                 </div>
                                 <div class="form-group col-md-6">
+                                    <label for="Email">Email:</label>
                                     <input id="your_email" class="form-control" placeholder="Email" type="email">
                                 </div>
                                 <div class="form-group col-md-6">
+                                    <label for="Phone">Phone no:</label>
                                     <input id="your_phone" class="form-control" placeholder="Phone" type="text">
                                 </div>
                                 <div class="form-group col-md-6">
+                                    <label for="Blood Type">Blood Type:</label>
                                     <div class="select-style">                                    
                                         <select class="form-control" name="blood_group">
                                             <option>Blood group needed</option>
@@ -118,9 +126,49 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                
+                                
+                                <div class="form-group col-md-6">
+                                    <label for="Date">Date:</label>
+                                    <input id="date" class="form-control" placeholder="by when do you need blood" type="text">
+                                </div>
+                                
+                                <div class="form-group col-md-6">
+                                    <label for="Units">No of units required:</label>
+                                    <input id="units" class="form-control" placeholder="Units required" type="text">
+                                </div>
+                                
+                                <div class="form-group col-md-6">
+                                    <label for="Hospital Adress">Hospital:</label>
+                                    <textarea id="textarea_message" class="form-control" rows="4" placeholder="Hospital Address..."></textarea>
+                                </div>
+                                
+                                <div class="form-group col-md-6">
+                                    <label for="Address">Address:</label>
                                     <textarea id="textarea_message" class="form-control" rows="4" placeholder="Your Address..."></textarea>
-                                </div>         
+                                </div>
+                                
+                                <div class="select-style"> 
+                                    <label for="City">City/Region:</label>
+                                        <select class="form-control" name="City">
+                                            <option>City/Region</option>
+                                            <option>Agege</option>
+                                            <option>Alimoso</option>
+                                            <option>Ifako ijaiye</option>
+                                            <option>Ikeja</option>
+                                            <option>Kosofe</option>option>
+                                            <option>Mushin</option>
+                                            <option>Oshodi</option>
+                                            <option>Shomolu</option>
+                                            <option>Apapa</option>
+                                            <option>ikorodu</option>
+                                            <option>Lekki</option>
+                                            <option>Epe</option>
+                                            <option>Eti-osa</option>
+                                            <option>Surulere</option>
+                                            
+                                        </select>
+                                    </div>
 
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                     <button id="btn_submit" class="btn-submit" type="submit">Submit</button>
